@@ -160,16 +160,3 @@ Response:
 {
   "intensity": 0.82
 }
-
-💡 Notes & Next Steps
-
-Feature expansion: Use n-grams, word embeddings (Word2Vec, GloVe) for richer features.
-
-Model experimentation: Explore tree-based regressors (RandomForest, XGBoost) for comparison.
-
-Deployment: Containerize via Docker or deploy on Heroku/Streamlit/FastAPI for live prediction.
-
-
----
-
-If you want, I can also **add badges and a visually modern GitHub-style header** to make it pop for recruiters when they see your repo. This is often what makes an AI project *look professional at first glance*. Do you want me to do that?
