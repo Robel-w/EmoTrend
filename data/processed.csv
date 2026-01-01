@@ -1,1 +1,4 @@
-
+text,clean_text,intensity
+a,aa,0.95
+b,bb,0.10
+c,cc,0.60

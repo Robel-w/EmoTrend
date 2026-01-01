@@ -1,10 +1,12 @@
 import pandas as pd
+from pathlib import Path
 from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import joblib
 from features import extract_features
 
-df = pd.read_csv('../data/processed.csv')
+data_path = Path(__file__).resolve().parent.parent / 'data' / 'processed.csv'
+df = pd.read_csv(data_path)
 X, y = extract_features(df)
 
 # Train multiple models
